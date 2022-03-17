@@ -35,7 +35,9 @@ namespace ConsoleApp4
             Console.WriteLine(myPhrase[1]);
             Console.WriteLine(myPhrase[2]);
             Console.WriteLine(myPhrase[3]);
-            Console.WriteLine(myPhrase[4]);*/
+            Console.WriteLine(myPhrase[4]);
+            Console.WriteLine(myPhrase.IndexOf("d"));
+            Console.WriteLine(myPhrase.Substring(6, 4));*/
             /*testing dot notation properties for strings*/
 
 
