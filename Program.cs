@@ -10,22 +10,27 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            string phrase = "Jared Martin";
+            string phrase = "Jared\nMartin";
+            string anotherPhrase = "jared\"martin";
             char grade = 'A';
             int age = 35;
             double gpa = 4.0;
-            
-            
+            bool isMale = true;
+            string yetAnotherPhrase = phrase + "\nis cool\n" + anotherPhrase;
+            // Learning C# concatination, variables, working with strings
 
             Console.WriteLine(phrase);
             Console.WriteLine(age);
             Console.WriteLine(gpa);
             Console.WriteLine(grade);
+            Console.WriteLine(isMale);
+            Console.WriteLine(anotherPhrase);
+            Console.WriteLine(yetAnotherPhrase);    
+            
 
 
 
-
-            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
