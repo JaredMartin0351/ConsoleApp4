@@ -69,22 +69,42 @@ namespace ConsoleApp4
 
 
 
-            Console.Write("What is your name: ");
+            /*Console.Write("What is your name: ");
             string name = Console.ReadLine();
             Console.WriteLine("Hello " + name);
             Console.Write("What is your age: ");
             string age = Console.ReadLine();
             Console.WriteLine("Hello " + name + " You are " + age);
-            
-            
-            
-            Console.WriteLine("Hello");
-
-
-
-
-
+            Console.WriteLine("Hello");*/
             /*learning user input*/
+
+            /*string num1 = "0351";
+            int stringToNum = Convert.ToInt32(num1);
+            Console.WriteLine(stringToNum.GetType());
+            Console.WriteLine(stringToNum);
+            Console.WriteLine(stringToNum + 1);
+
+            Console.Write("Enter a number: ");
+            int numInput1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            int numInput2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter a decimal number: ");
+            double numInput10 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter another decimal number: ");
+            double numInput20 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine(numInput1 + numInput2);
+            Console.WriteLine(numInput10 + numInput20);*/
+
+
+            /*converting string to int*/
+
+
+
+            /*building a calculator in C#*/
+
+
 
 
             Console.ReadLine();
