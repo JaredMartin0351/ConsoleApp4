@@ -10,6 +10,22 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+            string phrase = "Jared Martin";
+            char grade = 'A';
+            int age = 35;
+            double gpa = 4.0;
+            
+            
+
+            Console.WriteLine(phrase);
+            Console.WriteLine(age);
+            Console.WriteLine(gpa);
+            Console.WriteLine(grade);
+
+
+
+
+            Console.WriteLine();
         }
     }
 }
