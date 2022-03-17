@@ -68,6 +68,25 @@ namespace ConsoleApp4
             /*learning numbers in C#*/
 
 
+
+            Console.Write("What is your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
+            Console.Write("What is your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " You are " + age);
+            
+            
+            
+            Console.WriteLine("Hello");
+
+
+
+
+
+            /*learning user input*/
+
+
             Console.ReadLine();
         }
     }
