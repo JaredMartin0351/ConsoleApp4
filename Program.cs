@@ -112,6 +112,21 @@ namespace ConsoleApp4
             /*building a mad libs game*/
 
 
+            /*int[] luckyNumbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+            Console.WriteLine( luckyNumbers[7]);
+            luckyNumbers[0] = 100;
+            Console.WriteLine( luckyNumbers[0]);
+            string[] friends = new string[10];
+            friends[0] = "Jim";
+            friends[1] = "Dwight";
+            friends[2] = "Michael";
+            friends[3] = "Pam";
+            Console.WriteLine(friends[3]);
+            foreach (string friend in friends)
+            { Console.WriteLine(friend); }*/
+            /*Array's in C#*/
+
+
 
 
             Console.ReadLine();
