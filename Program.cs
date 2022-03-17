@@ -96,13 +96,20 @@ namespace ConsoleApp4
 
             Console.WriteLine(numInput1 + numInput2);
             Console.WriteLine(numInput10 + numInput20);*/
-
-
             /*converting string to int*/
 
 
-
-            /*building a calculator in C#*/
+            /*string color, pluralNoun, celebrity;
+            Console.Write("Enter a color: ");
+            color = Console.ReadLine();
+            Console.Write("Enter a plural noun: ");
+            pluralNoun = Console.ReadLine();
+            Console.WriteLine("Enter the name of a celebrity: ");
+            celebrity = Console.ReadLine();
+            Console.WriteLine("Roses are " + color);
+            Console.WriteLine(pluralNoun + " are Blue");
+            Console.WriteLine("I Love " + celebrity);*/
+            /*building a mad libs game*/
 
 
 
