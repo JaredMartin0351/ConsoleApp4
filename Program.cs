@@ -188,7 +188,7 @@ namespace ConsoleApp4
             }*/
 
 
-            Console.WriteLine(GetDay(0));
+            Console.WriteLine(GetDay(5));
 
 
 
@@ -255,6 +255,7 @@ namespace ConsoleApp4
                     break;
                 default:
                     dayName = "Invalid Day Number";
+                    break;
             }
 
             return dayName;
