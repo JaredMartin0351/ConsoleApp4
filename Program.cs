@@ -154,14 +154,38 @@ namespace ConsoleApp4
             Console.ReadLine();*/
             /*methods in C# outside of static void main*/
 
-
-
-
-
             //Console.WriteLine(GetMax(20, 30, 40));
 
+            //a better calculator
+            /*Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
 
+            Console.Write("Enter Operator: ");
+            string op = Console.ReadLine();
 
+            Console.Write("Enter another number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+")
+            {
+                Console.Write(num1 + num2);
+            }
+            else if (op == "-")
+            {
+                Console.Write(num1 - num2);
+            }
+            else if (op == "/")
+            {
+                Console.Write(num1 / num2);
+            }
+            else if (op == "*")
+            {
+                Console.Write(num1 * num2);
+            }
+            else
+            {
+                Console.WriteLine("Invalid operator");
+            }*/
 
             Console.ReadLine();
         }
