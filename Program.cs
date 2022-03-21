@@ -126,7 +126,7 @@ namespace ConsoleApp4
             { Console.WriteLine(friend); }*/
             /*Array's in C#*/
 
-            bool isMale = true;
+            /*bool isMale = false;
             bool isTall = true;
 
 
@@ -141,8 +141,8 @@ namespace ConsoleApp4
 
             } else { 
                 Console.WriteLine("You are not a tall male");
-            }
-
+            }/*
+            if statements in c#
             
 
             /*int cubedNumber = cube(5);
@@ -153,6 +153,16 @@ namespace ConsoleApp4
 
             Console.ReadLine();*/
             /*methods in C# outside of static void main*/
+
+
+
+
+
+            //Console.WriteLine(GetMax(20, 30, 40));
+
+
+
+
             Console.ReadLine();
         }
 
@@ -164,6 +174,25 @@ namespace ConsoleApp4
         static int cube(int num)
         {
             int result = num * num * num;
+            return result;
+        }
+
+        static int GetMax(int num1, int num2, int num3)
+        {
+            int result;
+            if (num1 >= num2 && num1 >= num3)
+            {
+                result = num1;
+            } 
+            else if (num2 >= num1 && num2 >= num3 )
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
+            }
+
             return result;
         }
     }
