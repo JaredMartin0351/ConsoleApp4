@@ -126,10 +126,45 @@ namespace ConsoleApp4
             { Console.WriteLine(friend); }*/
             /*Array's in C#*/
 
+            bool isMale = true;
+            bool isTall = true;
 
 
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a tall male");
+            } else if (isMale && !isTall) {
+                Console.WriteLine("You are a short male");
 
+            } else if ( !isMale && isTall) {
+                Console.WriteLine("You are not male but you are tall");
+
+            } else { 
+                Console.WriteLine("You are not a tall male");
+            }
+
+            
+
+            /*int cubedNumber = cube(5);
+            Console.WriteLine(cubedNumber);
+            *//*calling methods in C#
+            parameters in C#*//*
+            SayHello("Jared", 35);
+
+            Console.ReadLine();*/
+            /*methods in C# outside of static void main*/
             Console.ReadLine();
+        }
+
+        static void SayHello(string name, int age)
+        {
+            Console.WriteLine("Hello " + name + " you are " + age);
+        }
+        /*returning info from methods*/
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
         }
     }
 }
