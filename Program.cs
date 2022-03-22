@@ -188,8 +188,56 @@ namespace ConsoleApp4
             }*/
 
 
-            Console.WriteLine(GetDay(5));
+            //Console.WriteLine(GetDay(5));
 
+            /*&int index = 1;
+            do
+            {
+                Console.WriteLine("this is a while loop");
+                index ++;
+            } while (index <= 5);*/
+
+            /*int index = 1;
+            while (index <= 5)
+            {
+                Console.WriteLine("this is a while loop");
+                index ++;
+            }*/
+            
+            /*string secretWord = "Martin";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outOfGuesses = false;
+
+            while (guess != secretWord && !outOfGuesses)
+            {
+                if (guessCount < guessLimit)
+                {
+                    Console.WriteLine("Enter your guess: ");
+                    guess = Console.ReadLine();
+                    guessCount ++;
+                }
+                else
+                {
+                    outOfGuesses = true;
+                }
+            }
+            if (outOfGuesses)
+            {
+                Console.WriteLine("You are out of guesses");
+            }
+            else
+            {
+                Console.WriteLine("You guessed the word");
+            }*/
+                
+            
+               
+                
+               
+
+            
 
 
 
