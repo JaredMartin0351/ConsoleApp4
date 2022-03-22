@@ -152,9 +152,9 @@ namespace ConsoleApp4
             SayHello("Jared", 35);
 
             Console.ReadLine();*/
-            /*methods in C# outside of static void main*/
+            //methods in C# outside of static void main
 
-            //Console.WriteLine(GetMax(20, 30, 40));
+            /*Console.WriteLine(GetMax(20, 30, 40));*/
 
             //a better calculator
             /*Console.Write("Enter a number: ");
@@ -203,7 +203,7 @@ namespace ConsoleApp4
                 Console.WriteLine("this is a while loop");
                 index ++;
             }*/
-            
+
             /*string secretWord = "Martin";
             string guess = "";
             int guessCount = 0;
@@ -231,17 +231,89 @@ namespace ConsoleApp4
             {
                 Console.WriteLine("You guessed the word");
             }*/
+
+
+            //for loops
+
+            /*int i =1;
+            while (i <= 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }*/
+            //same loop, smaller structure v
+
+            /*for (int x = 1; x <= 5; x++)
+            {
+                Console.WriteLine(x);
+            }*/
+            /*int[] numbersArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+            for (int x = 0; x < numbersArray.Length; x++)
+            {
+                Console.WriteLine(numbersArray[x]);
+            }*/
                 
-            
+            //exponent function
+
+            /*Console.WriteLine(GetPow(9, 3));*/
                
-                
-               
+            //2 dimentional arrays in c#
+
+            /*int [,] numberGrid =
+            {
+                {1, 2},
+                {3, 4},
+                {5, 6}
+            };
+            int[,] myArray = new int[2, 3];
+            Console.WriteLine(numberGrid[2, 0]);*/
+
+            //comments
+            // this is a comment
+            //block comments
+            /*this is a block comment
+             it comments blocks of code*/
+            
+            //exception handling in c#
+            //user enters a string instead of an integer
+
 
             
+            try
+            {
+                Console.WriteLine("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
+
+            
+            
+            
+
+            
+            Console.ReadLine(); 
+        }
+
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result =1;
+            
+            for (int i = 0; i < powNum; i++)
+            {
+                result = result * baseNum;
+            }
 
 
-
-            Console.ReadLine();
+            return result;
         }
 
         static void SayHello(string name, int age)
