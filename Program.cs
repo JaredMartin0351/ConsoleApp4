@@ -280,7 +280,7 @@ namespace ConsoleApp4
 
 
             
-            try
+            /*try
             {
                 Console.WriteLine("Enter a number: ");
                 int num1 = Convert.ToInt32(Console.ReadLine());
@@ -300,7 +300,11 @@ namespace ConsoleApp4
             finally
             {
                 Console.WriteLine("finally WriteLine");
-            }
+            }*/
+
+            //classes and objects
+
+
             
 
             
