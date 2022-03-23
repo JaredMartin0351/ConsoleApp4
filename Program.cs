@@ -304,7 +304,7 @@ namespace ConsoleApp4
 
             //classes and objects
 
-            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            /*Book book1 = new Book("Harry Potter", "JK Rowling", 400);
 
             Book book2 = new Book("The Hobbit", "Tolkein", 475);
             
@@ -333,9 +333,15 @@ namespace ConsoleApp4
                 keyboard = "Corsair",
                 mouse = "Corsair",
                 monitor = "MSI",
-            };
+            };*/
 
-            
+            Student student1 = new Student("Jared", "C#", 4.0);
+            Student student2 = new Student("Cassandra", "Python", 3.8);
+            Student student3 = new Student("Alex", "Django", 2.3);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+            Console.WriteLine(student3.HasHonors());
             
             
 
