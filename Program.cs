@@ -362,6 +362,12 @@ namespace ConsoleApp4
 
             //static attributes on classes
 
+
+            //static methods and classes
+            // creating static methods and classes
+
+            //UsefullTools.SayHi("Jared");
+
             
             Console.ReadLine(); 
         }
