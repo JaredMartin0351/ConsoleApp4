@@ -2,7 +2,7 @@
 namespace ConsoleApp4
 {
 
-	public class UsefullTools
+	static class UsefullTools
 	{
 		public static void SayHi(string name)
 		{
