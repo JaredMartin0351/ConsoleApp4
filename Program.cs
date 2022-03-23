@@ -304,19 +304,10 @@ namespace ConsoleApp4
 
             //classes and objects
 
-            Book book1 = new Book
-            {
-                title = "Harry Potter",
-                author = "JK Rowling",
-                pages = 400
-            };
+            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
 
-            Book book2 = new Book
-            {
-                title = "The Hobbit",
-                author = "Tolkein",
-                pages = 475
-            };
+            Book book2 = new Book("The Hobbit", "Tolkein", 475);
+            
 
             Console.WriteLine(book1.title);
             Console.WriteLine(book1.author);
