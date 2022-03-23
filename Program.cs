@@ -354,6 +354,14 @@ namespace ConsoleApp4
             Console.WriteLine(avengers.Rating);
             Console.WriteLine(shrek.Rating);*/
 
+            /*Song holiday = new Song("Holiday", "Green Day", 200);
+            Console.WriteLine(Song.songCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(Song.songCount);
+            Console.WriteLine(kashmir.getSongCount());*/
+
+            //static attributes on classes
+
             
             Console.ReadLine(); 
         }
