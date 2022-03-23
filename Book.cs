@@ -1,11 +1,11 @@
 ﻿using System;
 
-public class Book
+namespace ConsoleApp4
 {
-	public Book()
-	{
-		public string title;
-		public string author;
-		public int pages;
-	}
+    internal class Book
+    {
+        public string title;
+        public string author;
+        public int pages;
+    }
 }

@@ -1,8 +1,9 @@
-﻿using System;
-
-public class Phone
+﻿namespace ConsoleApp4
 {
-	public Phone()
-	{
-	}
+    internal class Phone
+    {
+        public string model;
+        public long number;
+        public string carrier;
+    }
 }

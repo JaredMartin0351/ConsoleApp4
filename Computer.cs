@@ -1,13 +1,12 @@
-﻿using System;
-
-public class Computer
+﻿namespace ConsoleApp4
 {
-	public Computer()
-	{
-		public string motherboard;
-		public string video card;
-		public string monitor;
-		public string keyboard;
-		public string mouse;
-	}
+    internal class Computer
+    {
+        public string motherboard;
+        public string videocard;
+        public string cpu;
+        public string keyboard;
+        public string mouse;
+        public string monitor;
+    }
 }

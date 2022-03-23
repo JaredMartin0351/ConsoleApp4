@@ -253,11 +253,11 @@ namespace ConsoleApp4
             {
                 Console.WriteLine(numbersArray[x]);
             }*/
-                
+
             //exponent function
 
             /*Console.WriteLine(GetPow(9, 3));*/
-               
+
             //2 dimentional arrays in c#
 
             /*int [,] numberGrid =
@@ -274,12 +274,12 @@ namespace ConsoleApp4
             //block comments
             /*this is a block comment
              it comments blocks of code*/
-            
+
             //exception handling in c#
             //user enters a string instead of an integer
 
 
-            
+
             /*try
             {
                 Console.WriteLine("Enter a number: ");
@@ -304,8 +304,45 @@ namespace ConsoleApp4
 
             //classes and objects
 
+            Book book1 = new Book
+            {
+                title = "Harry Potter",
+                author = "JK Rowling",
+                pages = 400
+            };
 
-            
+            Book book2 = new Book
+            {
+                title = "The Hobbit",
+                author = "Tolkein",
+                pages = 475
+            };
+
+            Console.WriteLine(book1.title);
+            Console.WriteLine(book1.author);
+            Console.WriteLine(book1.pages);
+
+            Console.WriteLine(book2.title);
+            Console.WriteLine(book2.author);    
+            Console.WriteLine(book2.pages); 
+
+
+            Phone phone1 = new Phone
+            {
+                model = "iphone 13 pro",
+                carrier = "Verizon",
+                number = 6414361917,
+            };
+
+            Computer pc1 = new Computer
+            {
+                motherboard = "ROG",
+                videocard = "MSI",
+                cpu = "AMD",
+                keyboard = "Corsair",
+                mouse = "Corsair",
+                monitor = "MSI",
+            };
 
             
             
