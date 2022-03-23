@@ -335,15 +335,24 @@ namespace ConsoleApp4
                 monitor = "MSI",
             };*/
 
-            Student student1 = new Student("Jared", "C#", 4.0);
+            /*Student student1 = new Student("Jared", "C#", 4.0);
             Student student2 = new Student("Cassandra", "Python", 3.8);
             Student student3 = new Student("Alex", "Django", 2.3);
 
             Console.WriteLine(student1.HasHonors());
             Console.WriteLine(student2.HasHonors());
-            Console.WriteLine(student3.HasHonors());
+            Console.WriteLine(student3.HasHonors());*/
+
+            //external classes and methods, calling in main
+
+
+            /*Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "Wrong Rating");
+
+            //getters and setters
             
-            
+            Console.WriteLine(avengers.Rating);
+            Console.WriteLine(shrek.Rating);*/
 
             
             Console.ReadLine(); 
