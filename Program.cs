@@ -369,11 +369,17 @@ namespace ConsoleApp4
             //UsefullTools.SayHi("Jared");
 
 
-            Chef chef = new Chef();
+            /*Chef chef = new Chef();
             chef.MakeChicken();
+            chef.MakeSpecialDish();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeSteak();
+            italianChef.MakePasta();
+            italianChef.MakeSpecialDish();*/
 
 
-            //inheritance, super classes and subclasses
+            //inheritance, super classes and subclasses and overriding methods, virtual tag on chef class
 
             
             Console.ReadLine(); 
