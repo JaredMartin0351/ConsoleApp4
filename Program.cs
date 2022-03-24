@@ -369,7 +369,8 @@ namespace ConsoleApp4
             //UsefullTools.SayHi("Jared");
 
 
-
+            Chef chef = new Chef();
+            chef.MakeChicken();
 
 
             //inheritance, super classes and subclasses
